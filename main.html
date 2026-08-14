@@ -18,10 +18,14 @@
 			<input type="email" id="email"name="email"placeholder="Email" required>
 			<br><br>
 			<label for="Gender">Gender:</label>
-			<input type="radio" id="male" name="gender" required>
+			<input type="radio" id="male" name="gender"required>
 			<br><br>
-			<label for="Car Brands">Car Brands:</label>
-			<input type="Select" id="cars"name="cars"placeholder="--Please choose an option--" required>
+			<label for="Car">Car Brands:</label>
+			<select id="cars" name="cars" required>
+			<option value="">--Please choose an option--</option>
+				<option value="bmw">BMW</option>
+				<option value="audi">AUDI</option>
+			</select>
 			<br><br>
 			<label for="Age">Age:</label>
 			<input type="number"id="age"name="age"placeholder="Age" required>
@@ -35,7 +39,7 @@
 			<label for="password">password:</label>
 			<input type="password"id="password"name="password"placeholder="password" required>
 			<br><br>
-			<label for=I agree to the TOS>I agree to the TOS:</label>
+			<label for="tos">I agree to the TOS</label>
 			<input type="checkbox"id="tos"name="tos" required>
 			<br><br>
 			<input type="submit" value="submit">
